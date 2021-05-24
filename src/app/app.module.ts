@@ -6,27 +6,28 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ComicsComponent } from './components/shared/comics/comics.component';
 
+
 const routes: Routes = [
   { path: '',component:ComicsComponent, pathMatch: 'full'},
  
-
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     ComicsComponent,
-          
+   
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule,    
+    HttpClientModule,
+  
     RouterModule.forRoot(routes),  
     ],
 
   providers: [   
-  
+   
   ],
   bootstrap: [AppComponent]
   

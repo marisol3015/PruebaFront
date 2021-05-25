@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ComicService } from '../servicios/comics/comic.services';
+import { ComicService } from '../servicios/comic.services';
 
 @Component({
   selector: 'app-comics',
